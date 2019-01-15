@@ -37,6 +37,8 @@
         android:layout_alignEnd="@+id/email"
         android:layout_alignRight="@+id/email"
         android:layout_marginBottom="6dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="LOG IN" />
 
     <Button
@@ -47,6 +49,8 @@
         android:layout_alignEnd="@+id/email"
         android:layout_alignRight="@+id/email"
         android:layout_marginBottom="6dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="REGISTER" />
 
 

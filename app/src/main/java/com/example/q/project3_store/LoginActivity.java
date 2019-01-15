@@ -88,7 +88,8 @@ public class LoginActivity extends AppCompatActivity {
                 final View register_layout = LayoutInflater.from(LoginActivity.this)
                         .inflate(R.layout.register_layout, null);
                 new MaterialStyledDialog.Builder(LoginActivity.this)
-                        .setIcon(R.mipmap.ic_launcher)
+                        .setIcon(R.drawable.heart)
+                        .setHeaderColor(R.color.yellow)
                         .setTitle("REGISTRATION")
                         .setDescription("Please fill all fields")
                         .setCustomView(register_layout)
@@ -152,7 +153,7 @@ public class LoginActivity extends AppCompatActivity {
 //                        JSONObject information = new JSONObject();
 //                        information.put("email", email);
                         store_name = jsonobject.getString("store_name");
-                        Intent intent = new Intent(LoginActivity.this, StoreInfoActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                         intent.putExtra("store_name", store_name);
                         startActivity(intent);
 
