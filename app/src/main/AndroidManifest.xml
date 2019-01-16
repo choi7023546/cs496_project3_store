@@ -16,6 +16,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
+
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +27,7 @@
         '
         <activity android:name=".StoreInfoActivity" />
         <activity android:name=".MainActivity" />
+
 
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>

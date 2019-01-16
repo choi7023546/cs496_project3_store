@@ -48,6 +48,7 @@ public class Fourth extends Fragment {
         store_name = getActivity().getIntent().getStringExtra("store_name");
 
         final ListView listview = view.findViewById(R.id.review_list);
+        TextView text = view.findViewById(R.id.text);
 //        ArrayList<Review> reviewList = new ArrayList<>();
 //        reviewList.add(new Review("너무 너무 맛있어요 너무 너무 맛있어요너무 너무 맛있어요너무 너무 맛있어요너무 너무 맛있어요너무"));
 //        mAdapter = new MyReview(getContext(), reviewList);

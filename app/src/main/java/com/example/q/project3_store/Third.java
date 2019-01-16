@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.afollestad.materialdialogs.DialogAction;
@@ -53,6 +54,7 @@ public class Third extends Fragment {
         View view = inflater.inflate(R.layout.fragment_third, container, false);
         store_name = getActivity().getIntent().getStringExtra("store_name");
         FloatingActionButton fab = view.findViewById(R.id.fab);
+        TextView text = view.findViewById(R.id.text);
 
         final ListView listview = view.findViewById(R.id.menu_list);
 //        ArrayList<Menu> menuList = new ArrayList<>();

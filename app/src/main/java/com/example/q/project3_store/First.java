@@ -47,7 +47,7 @@ public class First extends Fragment {
         storeName.setText(nameText);
         try {
 //            generateRQCode(nameText);
-            String contents = "abc";
+            String contents = nameText;
             QRCodeWriter qrCodeWriter = new QRCodeWriter();
             contents = new String(contents.getBytes("UTF-8"),"ISO-8859-1");
             try {

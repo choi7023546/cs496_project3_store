@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        Log.d("token: ", FirebaseInstanceId.getInstance().getToken());
+//        Log.d("token: ", FirebaseInstanceId.getInstance().getToken());
 
         Retrofit retrofitClient = RetrofitClient.getInstance();
         iMyInterface = retrofitClient.create(IMyInterface.class);
